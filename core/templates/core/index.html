@@ -1,5 +1,5 @@
 {% extends 'core/base.html' %}
-
+{% load static %}
 {% block title %} Home {% endblock %}
 
 {% block content %}
@@ -8,6 +8,61 @@
 		<section class="header">
 			<h1>Hackathon Starter</h1>
 			<p class = 'header_description'>A boilerplate for Django web applications.</p>
+		</section>
+
+		<hr>
+
+		<section class="articles">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="card" >
+						<img class="card-img-top" src="{% static 'core/images/placeholder.png' %}" alt="placeholder img">
+						<div class="card-body">
+							<h3 class="card-title">Heading</h3>
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+							<a class="btn btn-sm btn-secondary" href="#" role="button">View details »</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-6">
+					<div class="card" >
+						<img class="card-img-top" src="{% static 'core/images/placeholder.png' %}" alt="placeholder img">
+						<div class="card-body">
+							<h3 class="card-title">Heading</h3>
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+							<a class="btn btn-sm btn-secondary" href="#" role="button">View details »</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-6">
+					<div class="card" >
+						<img class="card-img-top" src="{% static 'core/images/placeholder.png' %}" alt="placeholder img">
+						<div class="card-body">
+							<h3 class="card-title">Heading</h3>
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+							<a class="btn btn-sm btn-secondary" href="#" role="button">View details »</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-6">
+					<div class="card" >
+						<img class="card-img-top" src="{% static 'core/images/placeholder.png' %}" alt="placeholder img">
+						<div class="card-body">
+							<h3 class="card-title">Heading</h3>
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+							<a class="btn btn-sm btn-secondary" href="#" role="button">View details »</a>
+						</div>
+					</div>
+				</div>								
+
+			</div>
 		</section>
 	</div>
 

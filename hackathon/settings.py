@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
 
     'allauth.socialaccount.providers.google',
+    'allauth.socialaccount.providers.github',
 ]
 
 SITE_ID = 1
@@ -145,6 +146,9 @@ LOGIN_REDIRECT_URL = "index"
 LOGOUT_REDIRECT_URL = "index"
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+# verification email not sent on login with social account
+ACCOUNT_EMAIL_VERIFICATION = 'none'
 
 # notifying django-allauth to use email as username
 ACCOUNT_USER_MODEL_USERNAME_FIELD = None

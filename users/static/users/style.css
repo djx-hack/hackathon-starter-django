@@ -16,3 +16,45 @@
 .success_msg a {
 	margin-left: 10px;
 }
+
+.divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.divider-text span {
+    padding: 7px;
+    font-size: 15px;
+    position: relative;   
+    z-index: 2;
+}
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+
+.google {
+  background-color: #dd4b39;
+}
+
+.google:hover{
+	background-color: #cd3623;
+}
+
+.social_login{
+	text-align: center;
+}
+
+.social_login a{
+	color: white;
+}
+
+.social_login a:hover{
+	color: white;
+}

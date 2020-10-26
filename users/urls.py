@@ -27,4 +27,5 @@ urlpatterns = [
         ),
         name='password_change'
     ),
+    path('accounts/', include('allauth.urls')),
 ]

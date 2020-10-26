@@ -39,6 +39,10 @@
     z-index: 1;
 }
 
+.social_login .btn{
+	margin-top: 0.5rem;
+}
+
 .google {
   background-color: #dd4b39;
 }
@@ -57,4 +61,12 @@
 
 .social_login a:hover{
 	color: white;
+}
+
+.github {
+  background-color: #444444;
+}
+
+.github:hover{
+	background-color: #313131;
 }
